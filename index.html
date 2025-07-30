@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 페이지</title>
+       <style>
+        nav ul {
+            border: 1px dashed red;
+            padding: 0;
+            width: 1000px;
+            /* height: 50px; */
+            margin: 0;
+            overflow: hidden;
+            
+                }
+        nav ul li {
+            border: 0px solid red;
+            list-style: none;
+            width: 200px;        
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            box-sizing: border-box;
+            background-color: oklab(85.443% 0.02964 -0.05444);         
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .main-page {
+            background-color: orange;
+        }
+        nav ul li:hover {
+            border-bottom: 3px solid red;
+            background-color: lightblue;
+            color: yellow;
+            font-weight: bold;
+            text-shadow: 2px 6px 17px .3;
+        }
+
+    </style>
+</head>
+<body>
+    <div> 
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">board</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="sub-page" id="home">
+    </div>
+            <br></br>    
+    <div class="container">
+    <h3>회원가입 페이지</h3>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="name"></label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td><label for="email"></label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td><label for="password"></label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password"></label></td>
+                <td><input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"></td>
+        </table>
+        </form>
+        <br></br>
+           <a href="#">
+             <img src="./img/ikwf58wj.png" width="177" height="72" alt="회원가입 버튼">
+   
+            </a>
+        <br></br>
+       
+    </div>
+
+    <footer>
+        <p>© 2025 Join page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
