@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.sub-page {
+            position: relative;
+            border: 1px solid red;
+            height: 200px;
+            padding: 50px;
+            
+              }
+        div#top {
+                position: absolute;
+                top: 150px;
+                border: 2px solid blue;            
+            }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h1>AI 테스트</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#gallery">gallery</a></li>
+
+        </ul>
+    </div>
+    <div>
+        <div class="sub-page" id="home">home page <a href="#top">Top</a></div>
+        <div class="sub-page" id="profile">profile page <a href="#top">Top</a></div>
+        <div class="sub-page" id="gallery">gallery page <a href="#top">Top</a></div>
+
+    </div>
+
+</body>
+</html>

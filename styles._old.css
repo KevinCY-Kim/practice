@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* styles.css */
 
 body {
@@ -41,19 +40,3 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-=======
-
-        div.sub-page {
-            position: relative;
-            border: 1px solid red;
-            height: 200px;
-            padding: 50px;
-            
-              }
-        div#top {
-                position: absolute;
-                top: 150px;
-                border: 2px solid blue;            
-            }
-
->>>>>>> 2919dcd4f4b8f7707acc7af0c09e4b49ecb3bd46
